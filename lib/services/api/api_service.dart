@@ -110,7 +110,7 @@ extension ApiExtension on Api {
       case Api.products:
         return 'https://dummyjson.com/';
       case Api.wishlist:
-        return 'http://192.168.0.16:8091/diletta/';
+        return 'http://18.229.128.247:8091/diletta/';
 
       default:
         throw Exception();
